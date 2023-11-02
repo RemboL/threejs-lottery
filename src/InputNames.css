@@ -1,0 +1,9 @@
+.input-names-content {
+    --bs-modal-bg: rgba(255, 255, 255, 0.8);
+
+    .names-textarea {
+        width: 100%;
+        min-height: 10rem;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}
