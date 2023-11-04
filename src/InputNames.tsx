@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button, Form, Modal } from 'react-bootstrap';
+import { Form, Modal } from 'react-bootstrap';
 import './InputNames.css';
 
 export interface InputNamesProps {
@@ -30,7 +30,7 @@ export default function InputNames(props: InputNamesProps) {
                     </Form>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="primary" disabled={names.length === 0} onClick={() => props.inputNames(names)}>Submit</Button>
+                    <button className="btn btn-primary" disabled={names.length === 0} onClick={() => props.inputNames(names)}>Submit</button>
                 </Modal.Footer>
         </Modal.Dialog>
       </div>
